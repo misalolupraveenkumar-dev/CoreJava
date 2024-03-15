@@ -21,7 +21,7 @@ pipeline {
     }
 	post {
 
-        failure {
+        always {
             
 			emailext body: 'Helloo', subject: 'Extended email ', to: 'praveencreative2@gmail.com'
         }
