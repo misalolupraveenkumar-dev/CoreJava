@@ -23,7 +23,7 @@ pipeline {
 
         failure {
             
-			emailext body: 'Hello', subject: 'Extended email ', to: 'praveencreative2@gmail.com'
+			emailext body: 'Helloo', subject: 'Extended email ', to: 'praveencreative2@gmail.com'
         }
     }
 }
